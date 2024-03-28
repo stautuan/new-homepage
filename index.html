@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A website that offers insights, analysis and articles about technology."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="sass/styles.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/logo.svg" class="logo" alt="W logo" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#" class="link">Home</a></li>
+          <li><a href="#" class="link">New</a></li>
+          <li><a href="#" class="link">Popular</a></li>
+          <li><a href="#" class="link">Trending</a></li>
+          <li><a href="#" class="link">Categories</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <img id="menu-icon" src="images/icon-menu.svg" alt="menu icon" />
+        <img
+          id="close-icon"
+          src="images/icon-menu-close.svg"
+          alt="close icon"
+        />
+      </button>
+    </header>
+
+    <main>
+      <div class="container grid grid--3-cols">
+        <section class="hero grid grid--2-cols">
+          <img
+            src="images/image-web-3-desktop.jpg"
+            class="hero__img hero__img--lg"
+            alt="An illustration of colourful blocks of different shapes"
+          />
+          <img
+            src="images/image-web-3-mobile.jpg"
+            class="hero__img hero__img--sm"
+            alt="An illustration of colourful blocks of different shapes"
+          />
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="hero__text-box">
+            <p class="hero__description">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button aria-label="Read more about Web 3.0">Read more</button>
+          </div>
+        </section>
+
+        <section class="new">
+          <h2>New</h2>
+          <h3>
+            <a href="#" class="link link--orange">Hydrogen VS Electric Cars</a>
+          </h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <div class="separator" role="separator">&nbsp;</div>
+          <h3>
+            <a href="#" class="link link--orange"
+              >The Downsides of AI Artistry</a
+            >
+          </h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <div class="separator" role="separator">&nbsp;</div>
+          <h3>
+            <a href="#" class="link link--orange">Is VC Funding Drying Up?</a>
+          </h3>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </section>
+
+        <article>
+          <img
+            src="images/image-retro-pcs.jpg"
+            alt="A collection of vintage computers and gadgets"
+          />
+          <div>
+            <p class="number">01</p>
+            <h3><a href="#" class="link">Reviving Retro PCs</a></h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="images/image-top-laptops.jpg"
+            alt="A close-up photograph of the keys on a laptop keyboard"
+          />
+          <div>
+            <p class="number">02</p>
+            <h3><a href="#" class="link">Top 10 Laptops of 2022</a></h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="images/image-gaming-growth.jpg"
+            alt="A gaming console suspended in mid-air"
+          />
+          <div>
+            <p class="number">03</p>
+            <h3><a href="#" class="link">The Growth of Gaming</a></h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
