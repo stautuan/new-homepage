@@ -9,7 +9,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Live Site URL: [](https://stautuan.github.io/new-homepage/)
+- Live Site URL: https://stautuan.github.io/new-homepage/
 
 ## My process
 
@@ -65,4 +65,4 @@ Sass, css properties and grid, bem, and javascript.
 
 ## Author
 
-- Frontend Mentor - [@stautuan]
+- Frontend Mentor - @stautuan
